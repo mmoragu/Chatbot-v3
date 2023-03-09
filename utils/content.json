@@ -1,0 +1,62 @@
+[
+   {
+      "tag":"1",
+      "patterns":[
+         "I am studying a Degree at another University, how can I continue my studies at the UPO?"
+      ],
+      "responses":[
+         "You must apply for it through the UPO Electronic Headquarters (https://upo.gob.es/) or at the General Registry of the University (first floor of Building No. 18 - José Celestino Mutis) within the corresponding deadline."
+      ],
+      "context_set":""
+   },
+   {
+      "tag":"2",
+      "patterns":[
+         "I have finished a Bachelor/Diploma/Degree, how can I study another Degree at the UPO?"
+      ],
+      "responses":[
+         "Surely you have several ways to access a Degree (for having passed the Selectividad some years ago, for being a graduate, for being over 25 years old, etc.); you can check them by searching for 'acceso' and 'acceso titulado' in the UPO website."
+      ],
+      "context_set":""
+   },
+   {
+      "tag":"3",
+      "patterns":[
+         "I am a new student, I applied to study a degree in ... and, however, they have given me a place in another degree. What can I do?"
+      ],
+      "responses":[
+         "You can do two things: enroll in the degree that you have been granted (in this case you leave the awarding process and the waiting list) or reserve a place in case there is a vacancy in the one you wanted. "
+      ],
+      "context_set":""
+   },
+   {
+      "tag":"4",
+      "patterns":[
+         "I am studying a Degree at the UPO, how can I continue it at another University?"
+      ],
+      "responses":[
+         "First you must be admitted to another university. Then you must request a file transfer, making an appointment to submit the following documents at the General Registry of the UPO: 1) Letter of admission from the university of destination or, where appropriate, the letter of payment of the new enrollment. 2) Duly completed transfer application form. 3) Proof of having paid for the transfer."
+      ],
+      "context_set":""
+   },
+   {
+      "tag":"5",
+      "patterns":[
+         "I missed the registration deadline, what can I do?"
+      ],
+      "responses":[
+         "If you are a new student, you are obliged to enroll within the established period, otherwise you will lose your place. "
+      ],
+      "context_set":""
+   },
+   {
+      "tag":"5",
+      "patterns":[
+         "What forms of payment are available for registration?"
+      ],
+      "responses":[
+         "1 In a single installment, In two installments, In eight installments"
+      ],
+      "context_set":""
+   }
+]
