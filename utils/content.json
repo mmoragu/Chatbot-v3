@@ -5,58 +5,108 @@
          "I am studying a Degree at another University, how can I continue my studies at the UPO?"
       ],
       "responses":[
-         "You must apply for it through the UPO Electronic Headquarters (https://upo.gob.es/) or at the General Registry of the University (first floor of Building No. 18 - José Celestino Mutis) within the corresponding deadline."
+         "You must apply for it through the UPO Electronic Headquarters (https://upo.gob.es/) or at the General Registry of the University (first floor of Building No. 18 - José Celestino Mutis) within the corresponding deadline. You can continue your studies through the following ways: Apply for pre-registration in the studies you wish to pursue at UPO and once admitted and enrolled, request recognition. Request continuation of studies, commonly known as transfer of records, while also requesting recognition. It is recommended to use both ways as they are not incompatible."
       ],
       "context_set":""
    },
    {
       "tag":"2",
       "patterns":[
-         "I have finished a Bachelor/Diploma/Degree, how can I study another Degree at the UPO?"
+         "I have finished a Bachelor's/Diploma/Degree, how can I study another Degree at UPO?"
       ],
       "responses":[
-         "Surely you have several ways to access a Degree (for having passed the Selectividad some years ago, for being a graduate, for being over 25 years old, etc.); you can check them by searching for 'acceso' and 'acceso titulado' in the UPO website."
+         "You probably have several ways to access a Degree (by having passed the Selectivity some years ago, by being a graduate, by being over 25 years old, etc.); you can consult them by searching for 'access' and 'graduate access' on the UPO website."
       ],
       "context_set":""
    },
    {
       "tag":"3",
       "patterns":[
-         "I am a new student, I applied to study a degree in ... and, however, they have given me a place in another degree. What can I do?"
+         "I am a new student, I applied to study a Degree in ... and yet I have been given a place in another Degree. What can I do?"
       ],
       "responses":[
-         "You can do two things: enroll in the degree that you have been granted (in this case you leave the awarding process and the waiting list) or reserve a place in case there is a vacancy in the one you wanted. "
+         "You can do two things: enroll in the Degree that has been granted to you (in this case you leave the allocation process and waiting list) or reserve a place in case there is a vacancy in the one you wanted. If you choose the first option and then are granted the place you wanted (since leaving the process will no longer grant you any place, except in the 4th allocation, where you can remain on the waiting list), you have the right to cancel your enrollment and get your money back. If you choose the second option, you must confirm your preferred options that interest you to keep on the waiting list and be aware of the next allocation; in any case, it is advisable to inform yourself well about the procedure at Student Services."
       ],
       "context_set":""
    },
    {
       "tag":"4",
       "patterns":[
-         "I am studying a Degree at the UPO, how can I continue it at another University?"
+         "I am studying a Degree at UPO, how can I continue it at another University?"
       ],
       "responses":[
-         "First you must be admitted to another university. Then you must request a file transfer, making an appointment to submit the following documents at the General Registry of the UPO: 1) Letter of admission from the university of destination or, where appropriate, the letter of payment of the new enrollment. 2) Duly completed transfer application form. 3) Proof of having paid for the transfer."
+         "First you have to be admitted to another University. Then you must request a transfer of records by making an appointment to submit the following documentation at the UPO General Registry: 1) Admission letter from the destination university or, where appropriate, payment letter for the new enrollment. 2) Properly completed transfer request. 3) Proof of having paid for the transfer."
       ],
       "context_set":""
    },
    {
       "tag":"5",
       "patterns":[
-         "I missed the registration deadline, what can I do?"
+         "I am studying a Double Degree at UPO, can I give up the Double Degree and continue studying one of the two simple Degrees that make up the Double Degree?"
       ],
       "responses":[
-         "If you are a new student, you are obliged to enroll within the established period, otherwise you will lose your place. "
+         "Yes, it is possible to give up the Double Degree and switch to a single degree, but the application deadline for this course was from July 8th to 12th, 2019. If requested within the deadline, it is a simple procedure since all data is already in your file and you can enroll on the same dates as your classmates once your request has been accepted."
       ],
       "context_set":""
    },
    {
-      "tag":"5",
+      "tag":"6",
       "patterns":[
-         "What forms of payment are available for registration?"
+         "How can I know if my transfer request has been accepted or denied?"
       ],
       "responses":[
-         "1 In a single installment, In two installments, In eight installments"
+         "Generally, admission and denial resolutions are published on the website of the Degree Management Area of ​​the Faculty or University where you wish to continue your studies. In the case of UPO, an individual resolution is generated for each admitted or non-admitted applicant in the Electronic Headquarters."
       ],
       "context_set":""
-   }
+   },
+   {
+      "tag": "7",
+      "patterns": [
+        "I have passed Degree subjects at another University, how can I get them taken into account at UPO?"
+      ],
+      "responses": [
+        "There are two ways to achieve this: through recognition or transfer. Recognition means that they will count within the 240 ECTS credits required to complete your Degree. In transfer it does not have to be a subject similar to another in your Degree and it does not count as credits passed in the Degree, but it will appear on your record. In both cases, the application must be submitted through the UPO website (in 'Electronic Headquarters', for which you must have a digital certificate with its corresponding pin) and within the corresponding deadlines; you can find more information by searching for 'videotutorial recognition transfer' on the UPO website. Normally, for the recognition of credits taken outside of UPO you have to pay 30% of the value of the credits while transfer is free (the amount to be paid in each case is indicated in the corresponding payment letter)."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "8",
+      "patterns": [
+        "If I am recognized credits after enrolling, can I request an extension of enrollment?"
+      ],
+      "responses": [  
+        "Yes, as long as you comply with the Enrollment Regulations; in general, you will be able to extend your enrollment by a maximum of the number of credits recognized."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "9",
+      "patterns": [
+        "I come from a Higher Cycle Module, how do I enroll?"
+      ],
+      "responses": [
+        "Initially you will enroll like any other new student (in all first-year subjects), but you should request as soon as possible the recognition of the credits taken in your Higher Cycle (within the established deadline for your enrollment); you can find more information by searching for 'higher cycle' on the UPO website. In September you will be able to modify your enrollment and choose subjects from higher courses, but it is important that you enroll in what your Center (Faculty or School) recommends, so as not to choose subjects that require previous content from others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "11",
+      "patterns": [
+        "How can I get free configuration credits counted at UPO?"
+      ],
+      "responses": [
+        "For Degree students there are no free configuration credits that existed in Diplomas and Degrees; instead there are up to 6 credits for activities."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "12",
+      "patterns": [
+        "What are credits for activities (cultural, sports, student representation, solidarity, strategic, etc.) and how do I get them recognized?"
+      ],
+      "responses": [
+        "If you are a Degree student, you can request recognition of some activities as elective credits (up to a maximum of 6 credits); if you wish, you can transfer more credits. You can find more information and even a list of activities that can be recognized by searching for 'recognition activities' on the UPO website. In general, the amount is 30% of the value of the credits. The application method depends on the organizers of each activity. VERY IMPORTANT: if those credits were associated with a payment and the student did not make it, the credits would be removed from the record but the debt to UPO would remain."
+      ],
+      "context_set": ""
+    }
 ]

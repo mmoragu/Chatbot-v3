@@ -16,7 +16,7 @@ documents = []
 classes = []
 for intent in intents:
     for pattern in intent['patterns']:
-        tokenized_patterns=Cleaner.get_cleaner().clean_up_sentence(pattern.lower())
+        tokenized_patterns=Cleaner.get_cleaner().clean_up_sentence(pattern)
         words.extend(tokenized_patterns)
         documents.append((tokenized_patterns, intent['tag']))
         if intent['tag'] not in classes:
